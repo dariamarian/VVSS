@@ -15,7 +15,7 @@ public class PizzaServiceTest {
     private PizzaService pizzaService;
 
     @BeforeEach
-    void setUp() throws PaymentException, IOException {
+    public void setUp() throws PaymentException, IOException {
         MenuRepository menuRepository = new MenuRepository("data/menu.txt");
         PaymentRepository paymentRepository = new PaymentRepository("data/payments.txt");
         pizzaService = new PizzaService(menuRepository, paymentRepository);
@@ -23,7 +23,7 @@ public class PizzaServiceTest {
 
     @Test
     @DisplayName("Test valid payment with Cash")
-    void testValidPaymentWithCash() {
+    public void testValidPaymentWithCash() {
         int size = pizzaService.getPayments().size();
         // Arrange
         int table = 1;
@@ -38,7 +38,7 @@ public class PizzaServiceTest {
 
     @Test
     @DisplayName("Test payment with invalid type")
-    void testPaymentWithInvalidType() {
+    public void testPaymentWithInvalidType() {
         // Arrange
         int table = 1;
         String type = "";
@@ -55,7 +55,7 @@ public class PizzaServiceTest {
     @Test
     @DisplayName("Test payment with non-numeric amount")
     @Disabled("This test case is not applicable as the code should not compile if the amount is not a double.")
-    void testPaymentWithNonNumericAmount() {
+    public void testPaymentWithNonNumericAmount() {
         // Arrange
         int table = 1;
         String type = "Cash";
@@ -71,7 +71,7 @@ public class PizzaServiceTest {
     @ParameterizedTest
     @ValueSource(ints = {1, 8})
     @DisplayName("Test valid payment with valid table number")
-    void testValidPaymentWithValidTable(int table) {
+    public void testValidPaymentWithValidTable(int table) {
         int size = pizzaService.getPayments().size();
         // Arrange
         String type = "Card";
@@ -85,7 +85,7 @@ public class PizzaServiceTest {
 
     @Test
     @DisplayName("Test valid payment with invalid table number")
-    void testValidPaymentWithInValidTable() {
+    public void testValidPaymentWithInValidTable() {
         // Arrange
         int table = 9;
         String type = "Card";
@@ -101,7 +101,7 @@ public class PizzaServiceTest {
 
     @Test
     @DisplayName("Test valid payment with valid amount")
-    void testValidPaymentWithValidAmounts() {
+    public void testValidPaymentWithValidAmounts() {
         int size = pizzaService.getPayments().size();
         // Arrange
         int table = 8;
@@ -116,7 +116,7 @@ public class PizzaServiceTest {
 
     @RepeatedTest(3)
     @DisplayName("Test invalid payment with invalid amount")
-    void testInvalidPaymentWithInvalidAmount() {
+    public void testInvalidPaymentWithInvalidAmount() {
         // Arrange
         int table = 1;
         String type = "Card";
