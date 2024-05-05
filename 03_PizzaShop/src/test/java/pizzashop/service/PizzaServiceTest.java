@@ -11,7 +11,7 @@ import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class PizzaServiceTest {
+public class PizzaServiceTest {
     private PizzaService pizzaService;
 
     @BeforeEach
