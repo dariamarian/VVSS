@@ -1,0 +1,8 @@
+
+
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ãÈˆ¦8İçÙëå1J$9574d88c-2745-44b8-b686-d94c73154a4d
+
+java:S2095E"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ù»ı8İçÙëå1J$5ed24b1a-b0a3-469b-a735-e74c89177f1e
+~	java:S125"<This block of commented-out lines of code should be removed.(Èú’’8éçÙëå1J$3a36f599-dcdf-4d29-9abc-d30a46cfa26c
+~	java:S125@"<This block of commented-out lines of code should be removed.(Èú’’8şçÙëå1J$541fd6e7-a563-4692-96e7-b700d1de0145
+r	java:S106G"+Replace this use of System.out by a logger.(Ñ£±Ôúÿÿÿÿ8ÿçÙëå1J$abc62974-d4e8-4d1c-ac1c-6c5bcefa9d22

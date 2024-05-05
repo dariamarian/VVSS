@@ -1,0 +1,14 @@
+
+p
+java:S3740"/Provide the parametrized type for this generic.(İÈ«ğÿÿÿÿÿJ$d2514972-cb66-4ad1-802e-cfe5af3f29ff
+’
+java:S1104"QMake order a static final constant or non-public and provide accessors if needed.(èÊçÀùÿÿÿÿJ$0118c1cc-ccff-4ed8-8c08-a5649016a5cc
+l
+java:S1444"+Make this "public static order" field final(èÊçÀùÿÿÿÿJ$4d98db53-5975-4d76-81da-2e5a2a21769e
+^
+java:S2386"Make this member "protected".(èÊçÀùÿÿÿÿJ$4e6acd86-4f1d-4400-a124-3af4f28254b1
+a
+java:S2129" Remove this "String" constructor(“×ŞúÿÿÿÿJ$c149b41c-a2f7-43f2-b922-01863f5b70f5
+f	java:S106<"+Replace this use of System.out by a logger.(ú•€ËJ$2f93b16a-5776-4706-8caa-5a7c23ffa1d6
+k	java:S106="+Replace this use of System.out by a logger.(‡±§­üÿÿÿÿJ$ed226db3-2caa-42bc-b2c7-1e5e68f9e779
+f	java:S106>"+Replace this use of System.out by a logger.(ú•€ËJ$e8d23550-cf7a-41da-986e-f6564bdb8e3a

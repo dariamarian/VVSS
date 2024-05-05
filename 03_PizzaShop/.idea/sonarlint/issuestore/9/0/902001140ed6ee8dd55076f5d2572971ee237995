@@ -1,0 +1,16 @@
+
+
+java:S1192"[Define a constant instead of duplicating this literal "--------------------------" 6 times.(ú•€Ë8ÿåÙëå1J$9e333aa1-3c1d-4b17-b64a-ebeccf736f24
+q
+java:S3655/"5Call "result.isPresent()" before accessing the value.(îçĞµJ$fb0516ee-d8e7-4be5-b4a0-b3f2d704586d
+m	java:S106"+Replace this use of System.out by a logger.(ú•€Ë8¦æÙëå1J$f3b73c98-5b08-4da4-910b-a1e5e47dd0a3
+r	java:S106"+Replace this use of System.out by a logger.(ç”ŠÎûÿÿÿÿ8¦æÙëå1J$2f0e8711-853d-433a-87b5-298955644987
+m	java:S106"+Replace this use of System.out by a logger.(Òúº‘8¦æÙëå1J$349ea5dc-1c69-41a9-b2e0-f9f678f865be
+m	java:S106"+Replace this use of System.out by a logger.(ú•€Ë8¨æÙëå1J$135a342d-b7af-41f8-b7e5-c9fd44a9bc2e
+m	java:S106"+Replace this use of System.out by a logger.(ú•€Ë8¨æÙëå1J$2045bd56-714c-4a46-bd6c-6a95798936af
+m	java:S106"+Replace this use of System.out by a logger.(ÏúËá8¨æÙëå1J$4a906c73-5e15-4e7d-abf2-a61ca20b7b14
+m	java:S106"+Replace this use of System.out by a logger.(á•î˜8¨æÙëå1J$55920f8d-0e33-4843-91a7-2a4684e7e7cf
+m	java:S106"+Replace this use of System.out by a logger.(ú•€Ë8¨æÙëå1J$d0f400a7-2135-4a0d-ac9f-13e708e829f4
+m	java:S106!"+Replace this use of System.out by a logger.(ú•€Ë8¨æÙëå1J$456103b3-bc71-4b11-aa96-a419241ddacd
+r	java:S106""+Replace this use of System.out by a logger.(‡à¼Óøÿÿÿÿ8¨æÙëå1J$3d4be992-2027-43d3-8042-0bb411857872
+m	java:S106#"+Replace this use of System.out by a logger.(ú•€Ë8¨æÙëå1J$b7e96270-bb56-4e9e-bb22-c001fc725e51
