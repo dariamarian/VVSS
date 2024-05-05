@@ -11,6 +11,6 @@ module pizzashop {
     opens pizzashop.controller to javafx.fxml;
     exports pizzashop.controller;
     exports pizzashop.service;
-    opens pizzashop.service to junit;
-    opens pizzashop.repository to junit;
+    opens pizzashop.service to javafx.base;
+    opens pizzashop.repository to javafx.base;
 }
