@@ -166,6 +166,9 @@
         </executions>
         <configuration>
           <mainClass>pizzashop.Main</mainClass>
+          <arguments>
+            <argument> -add-opens pizzashop/pizzashop.module=ALL-UNNAMED </argument>
+          </arguments>
         </configuration>
       </plugin>
       <plugin>
