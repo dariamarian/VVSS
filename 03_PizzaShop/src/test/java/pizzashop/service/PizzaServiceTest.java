@@ -12,7 +12,7 @@ import java.io.IOException;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class PizzaServiceTest {
-    private PizzaService pizzaService;
+    public PizzaService pizzaService;
 
     @BeforeEach
     public void setUp() throws PaymentException, IOException {

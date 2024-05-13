@@ -44,7 +44,7 @@ public class PizzaService {
         payRepo.add(payment);
     }
 
-    private boolean isPaymentTypeValid(String type) {
+    public boolean isPaymentTypeValid(String type) {
         try {
             PaymentType.valueOf(type);
             return true;
