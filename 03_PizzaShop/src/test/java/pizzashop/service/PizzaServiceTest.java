@@ -114,7 +114,7 @@ public class PizzaServiceTest {
         assertEquals(1, pizzaService.getPayments().size() - size);
     }
 
-    @RepeatedTest(3)
+    @Test
     @DisplayName("Test invalid payment with invalid amount")
     public void testInvalidPaymentWithInvalidAmount() {
         // Arrange
